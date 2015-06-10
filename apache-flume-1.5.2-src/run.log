@@ -1,0 +1,1631 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-embedded-agent:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:jar:1.5.2
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.httpcomponents:httpclient:jar -> duplicate declaration of version (?) @ org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:[unknown-version], /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink/pom.xml, line 86, column 17
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-morphline-solr-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-scribe-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-jms-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-twitter-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sources:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-spillable-memory-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-tests:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-tools:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ line 247, column 23
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO] Flume NG Sinks
+[INFO] Flume NG HDFS Sink
+[INFO] Flume NG IRC Sink
+[INFO] Flume NG Channels
+[INFO] Flume NG JDBC channel
+[INFO] Flume NG file-based channel
+[INFO] Flume NG Spillable Memory channel
+[INFO] Flume NG Node
+[INFO] Flume NG Embedded Agent
+[INFO] Flume NG HBase Sink
+[INFO] Flume NG ElasticSearch Sink
+[INFO] Flume NG Morphline Solr Sink
+[INFO] Flume Sources
+[INFO] Flume Scribe Source
+[INFO] Flume JMS Source
+[INFO] Flume Twitter Source
+[INFO] Flume legacy Sources
+[INFO] Flume legacy Avro source
+[INFO] Flume legacy Thrift Source
+[INFO] Flume NG Clients
+[INFO] Flume NG Log4j Appender
+[INFO] Flume NG Tools
+[INFO] Flume NG distribution
+[INFO] Flume NG Integration Tests
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sdk/target
+[INFO] 
+[INFO] --- avro-maven-plugin:1.7.3:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 25 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sdk/target/generated-sources/avro to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-configuration/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target
+[INFO] 
+[INFO] --- avro-maven-plugin:1.7.3:schema (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (generate-version) @ flume-ng-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 155 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-core ---
+[INFO] Generating parameter names from /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target/generated-sources/avro to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Sinks 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sinks ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sinks ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG HDFS Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-hdfs-sink ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-hdfs-sink/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-hdfs-sink ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-hdfs-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-hdfs-sink/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-hdfs-sink ---
+[INFO] Compiling 16 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-hdfs-sink/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG IRC Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-irc-sink ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-irc-sink/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-irc-sink ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-irc-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-irc-sink/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-irc-sink ---
+[INFO] Compiling 1 source file to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-irc-sink/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Channels 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-channels ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-channels ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG JDBC channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-jdbc-channel ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-jdbc-channel/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-jdbc-channel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-jdbc-channel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-jdbc-channel/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-jdbc-channel ---
+[INFO] Compiling 15 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-jdbc-channel/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG file-based channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-file-channel ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-file-channel/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-file-channel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-file-channel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-file-channel/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-file-channel ---
+[INFO] Compiling 45 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-file-channel/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Spillable Memory channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-spillable-memory-channel ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-spillable-memory-channel/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-spillable-memory-channel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-spillable-memory-channel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-spillable-memory-channel/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-spillable-memory-channel ---
+[INFO] Compiling 1 source file to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-spillable-memory-channel/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Node 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-node ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-node/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-node ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-node ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-node/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-node ---
+[INFO] Compiling 7 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-node/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Embedded Agent 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-embedded-agent ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-embedded-agent/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-embedded-agent ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-embedded-agent ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-embedded-agent/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-embedded-agent ---
+[INFO] Compiling 6 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-embedded-agent/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG HBase Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-hbase-sink ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-hbase-sink/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-hbase-sink ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-hbase-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-hbase-sink/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-hbase-sink ---
+[INFO] Compiling 11 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-hbase-sink/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG ElasticSearch Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-elasticsearch-sink ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-elasticsearch-sink ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-elasticsearch-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-elasticsearch-sink ---
+[INFO] Compiling 19 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Morphline Solr Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.hadoop:hadoop-common:jar:1.0.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-morphline-solr-sink ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-morphline-solr-sink/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-morphline-solr-sink ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-morphline-solr-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-morphline-solr-sink/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-morphline-solr-sink ---
+[INFO] Compiling 8 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-morphline-solr-sink/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Sources 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sources ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sources ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Scribe Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-scribe-source ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-scribe-source/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-scribe-source ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-scribe-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-scribe-source/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-scribe-source ---
+[INFO] Compiling 4 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-scribe-source/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume JMS Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-jms-source ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-jms-source/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-jms-source ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-jms-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-jms-source/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-jms-source ---
+[INFO] Compiling 9 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-jms-source/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Twitter Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-twitter-source ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-twitter-source/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-twitter-source ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-twitter-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-twitter-source/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-twitter-source ---
+[INFO] Compiling 1 source file to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-twitter-source/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Sources 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-legacy-sources ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-legacy-sources ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Avro source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-avro-source ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-avro-source/target
+[INFO] 
+[INFO] --- avro-maven-plugin:1.7.3:idl-protocol (default) @ flume-avro-source ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-avro-source ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-avro-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-avro-source/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-avro-source ---
+[INFO] Compiling 4 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-avro-source/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Thrift Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-thrift-source ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-thrift-source/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-thrift-source ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-thrift-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-thrift-source/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-thrift-source ---
+[INFO] Compiling 5 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-thrift-source/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Clients 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-clients ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-clients/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-clients ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Log4j Appender 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-log4jappender ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-clients/flume-ng-log4jappender/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-log4jappender ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-log4jappender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-clients/flume-ng-log4jappender/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-log4jappender ---
+[INFO] Compiling 3 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-clients/flume-ng-log4jappender/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Tools 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-tools ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-tools/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-tools ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-tools/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-tools ---
+[INFO] Compiling 4 source files to /opt/trace/software/apache-flume-1.5.2-src/flume-tools/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG distribution 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-dist ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-dist/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-dist ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Integration Tests 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-tests ---
+[INFO] Deleting /opt/trace/software/apache-flume-1.5.2-src/flume-ng-tests/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/trace/software/apache-flume-1.5.2-src/flume-ng-tests/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-tests ---
+[INFO] Compiling 1 source file to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-tests/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  1.328 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  6.591 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  2.680 s]
+[INFO] Flume NG Core ...................................... SUCCESS [  7.912 s]
+[INFO] Flume NG Sinks ..................................... SUCCESS [  0.027 s]
+[INFO] Flume NG HDFS Sink ................................. SUCCESS [  3.435 s]
+[INFO] Flume NG IRC Sink .................................. SUCCESS [  1.348 s]
+[INFO] Flume NG Channels .................................. SUCCESS [  0.024 s]
+[INFO] Flume NG JDBC channel .............................. SUCCESS [  2.717 s]
+[INFO] Flume NG file-based channel ........................ SUCCESS [  5.861 s]
+[INFO] Flume NG Spillable Memory channel .................. SUCCESS [  1.819 s]
+[INFO] Flume NG Node ...................................... SUCCESS [  2.319 s]
+[INFO] Flume NG Embedded Agent ............................ SUCCESS [  1.974 s]
+[INFO] Flume NG HBase Sink ................................ SUCCESS [  3.550 s]
+[INFO] Flume NG ElasticSearch Sink ........................ SUCCESS [  2.857 s]
+[INFO] Flume NG Morphline Solr Sink ....................... SUCCESS [  7.682 s]
+[INFO] Flume Sources ...................................... SUCCESS [  0.021 s]
+[INFO] Flume Scribe Source ................................ SUCCESS [  2.144 s]
+[INFO] Flume JMS Source ................................... SUCCESS [  1.991 s]
+[INFO] Flume Twitter Source ............................... SUCCESS [  1.437 s]
+[INFO] Flume legacy Sources ............................... SUCCESS [  0.022 s]
+[INFO] Flume legacy Avro source ........................... SUCCESS [  3.435 s]
+[INFO] Flume legacy Thrift Source ......................... SUCCESS [  2.427 s]
+[INFO] Flume NG Clients ................................... SUCCESS [  0.021 s]
+[INFO] Flume NG Log4j Appender ............................ SUCCESS [  1.317 s]
+[INFO] Flume NG Tools ..................................... SUCCESS [  1.388 s]
+[INFO] Flume NG distribution .............................. SUCCESS [  0.994 s]
+[INFO] Flume NG Integration Tests ......................... SUCCESS [  1.123 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:10 min
+[INFO] Finished at: 2015-05-16T19:45:13+08:00
+[INFO] Final Memory: 78M/1474M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-embedded-agent:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:jar:1.5.2
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.httpcomponents:httpclient:jar -> duplicate declaration of version (?) @ org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:[unknown-version], /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink/pom.xml, line 86, column 17
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-morphline-solr-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-scribe-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-jms-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-twitter-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sources:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-spillable-memory-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-tests:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-tools:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ line 247, column 23
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO] Flume NG Sinks
+[INFO] Flume NG HDFS Sink
+[INFO] Flume NG IRC Sink
+[INFO] Flume NG Channels
+[INFO] Flume NG JDBC channel
+[INFO] Flume NG file-based channel
+[INFO] Flume NG Spillable Memory channel
+[INFO] Flume NG Node
+[INFO] Flume NG Embedded Agent
+[INFO] Flume NG HBase Sink
+[INFO] Flume NG ElasticSearch Sink
+[INFO] Flume NG Morphline Solr Sink
+[INFO] Flume Sources
+[INFO] Flume Scribe Source
+[INFO] Flume JMS Source
+[INFO] Flume Twitter Source
+[INFO] Flume legacy Sources
+[INFO] Flume legacy Avro source
+[INFO] Flume legacy Thrift Source
+[INFO] Flume NG Clients
+[INFO] Flume NG Log4j Appender
+[INFO] Flume NG Tools
+[INFO] Flume NG distribution
+[INFO] Flume NG Integration Tests
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in http://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of repo1.maven.org has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-sdk ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-configuration ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in http://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of repo1.maven.org has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-core ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Sinks 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-sinks ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG HDFS Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-hdfs-sink ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG IRC Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-irc-sink ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Channels 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-channels ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG JDBC channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-jdbc-channel ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG file-based channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-file-channel ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Spillable Memory channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-spillable-memory-channel ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Node 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-node ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Embedded Agent 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-embedded-agent ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG HBase Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-hbase-sink ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG ElasticSearch Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-elasticsearch-sink ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Morphline Solr Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-morphline-solr-sink ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Sources 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-sources ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Scribe Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-scribe-source ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume JMS Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-jms-source ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Twitter Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-twitter-source ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Sources 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-legacy-sources ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Avro source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in http://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of repo1.maven.org has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-avro-source ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Thrift Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-thrift-source ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Clients 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-clients ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Log4j Appender 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-log4jappender ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Tools 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-tools ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG distribution 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-dist ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Integration Tests 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:clean (default-cli) @ flume-ng-tests ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.764 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  0.035 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  0.017 s]
+[INFO] Flume NG Core ...................................... SUCCESS [  0.052 s]
+[INFO] Flume NG Sinks ..................................... SUCCESS [  0.013 s]
+[INFO] Flume NG HDFS Sink ................................. SUCCESS [  0.017 s]
+[INFO] Flume NG IRC Sink .................................. SUCCESS [  0.015 s]
+[INFO] Flume NG Channels .................................. SUCCESS [  0.015 s]
+[INFO] Flume NG JDBC channel .............................. SUCCESS [  0.014 s]
+[INFO] Flume NG file-based channel ........................ SUCCESS [  0.016 s]
+[INFO] Flume NG Spillable Memory channel .................. SUCCESS [  0.016 s]
+[INFO] Flume NG Node ...................................... SUCCESS [  0.016 s]
+[INFO] Flume NG Embedded Agent ............................ SUCCESS [  0.016 s]
+[INFO] Flume NG HBase Sink ................................ SUCCESS [  0.018 s]
+[INFO] Flume NG ElasticSearch Sink ........................ SUCCESS [  0.016 s]
+[INFO] Flume NG Morphline Solr Sink ....................... SUCCESS [  0.037 s]
+[INFO] Flume Sources ...................................... SUCCESS [  0.012 s]
+[INFO] Flume Scribe Source ................................ SUCCESS [  0.015 s]
+[INFO] Flume JMS Source ................................... SUCCESS [  0.015 s]
+[INFO] Flume Twitter Source ............................... SUCCESS [  0.016 s]
+[INFO] Flume legacy Sources ............................... SUCCESS [  0.012 s]
+[INFO] Flume legacy Avro source ........................... SUCCESS [  0.019 s]
+[INFO] Flume legacy Thrift Source ......................... SUCCESS [  0.014 s]
+[INFO] Flume NG Clients ................................... SUCCESS [  0.011 s]
+[INFO] Flume NG Log4j Appender ............................ SUCCESS [  0.014 s]
+[INFO] Flume NG Tools ..................................... SUCCESS [  0.014 s]
+[INFO] Flume NG distribution .............................. SUCCESS [  0.018 s]
+[INFO] Flume NG Integration Tests ......................... SUCCESS [  0.033 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.228 s
+[INFO] Finished at: 2015-05-16T19:45:21+08:00
+[INFO] Final Memory: 23M/303M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-embedded-agent:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:jar:1.5.2
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.httpcomponents:httpclient:jar -> duplicate declaration of version (?) @ org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:[unknown-version], /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink/pom.xml, line 86, column 17
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-morphline-solr-sink:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-scribe-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-jms-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sources:flume-twitter-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sources:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-spillable-memory-channel:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-tests:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-tools:jar:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ org.apache.flume:flume-parent:1.5.2, /opt/trace/software/apache-flume-1.5.2-src/pom.xml, line 247, column 23
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.5.2
+[WARNING] 'profiles.profile[hbase-98].dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hadoop:hadoop-minicluster:jar -> duplicate declaration of version ${hadoop.version} @ line 247, column 23
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO] Flume NG Sinks
+[INFO] Flume NG HDFS Sink
+[INFO] Flume NG IRC Sink
+[INFO] Flume NG Channels
+[INFO] Flume NG JDBC channel
+[INFO] Flume NG file-based channel
+[INFO] Flume NG Spillable Memory channel
+[INFO] Flume NG Node
+[INFO] Flume NG Embedded Agent
+[INFO] Flume NG HBase Sink
+[INFO] Flume NG ElasticSearch Sink
+[INFO] Flume NG Morphline Solr Sink
+[INFO] Flume Sources
+[INFO] Flume Scribe Source
+[INFO] Flume JMS Source
+[INFO] Flume Twitter Source
+[INFO] Flume legacy Sources
+[INFO] Flume legacy Avro source
+[INFO] Flume legacy Thrift Source
+[INFO] Flume NG Clients
+[INFO] Flume NG Log4j Appender
+[INFO] Flume NG Tools
+[INFO] Flume NG distribution
+[INFO] Flume NG Integration Tests
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-parent <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-parent ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in http://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of repo1.maven.org has elapsed or updates are forced
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-sdk >>>
+[INFO] 
+[INFO] --- avro-maven-plugin:1.7.3:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-sdk <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-sdk ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-sdk" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sdk.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-configuration >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-configuration <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-configuration ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-configuration" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-configuration.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in http://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of repo1.maven.org has elapsed or updates are forced
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-core >>>
+[INFO] 
+[INFO] --- avro-maven-plugin:1.7.3:schema (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (generate-version) @ flume-ng-core ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-core <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-core ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-core" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-core.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Sinks 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-sinks >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sinks ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-sinks <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-sinks ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG HDFS Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-hdfs-sink >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-hdfs-sink ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-hdfs-sink <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-hdfs-sink ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-hdfs-sink" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-hdfs-sink.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG IRC Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-irc-sink >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-irc-sink ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-irc-sink <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-irc-sink ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-irc-sink" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-irc-sink.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Channels 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-channels >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-channels ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-channels <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-channels ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG JDBC channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-jdbc-channel >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-jdbc-channel ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-jdbc-channel <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-jdbc-channel ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-jdbc-channel" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-jdbc-channel.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG file-based channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-file-channel >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-file-channel ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-file-channel <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-file-channel ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-file-channel" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-file-channel.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Spillable Memory channel 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-spillable-memory-channel >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-spillable-memory-channel ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-spillable-memory-channel <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-spillable-memory-channel ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-spillable-memory-channel" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-channels/flume-spillable-memory-channel.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Node 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-node >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-node ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-node <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-node ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-node" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-node.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Embedded Agent 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-embedded-agent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-embedded-agent ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-embedded-agent <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-embedded-agent ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-embedded-agent" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-embedded-agent.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG HBase Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-hbase-sink >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-hbase-sink ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-hbase-sink <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-hbase-sink ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-hbase-sink" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-hbase-sink.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG ElasticSearch Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-elasticsearch-sink >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-elasticsearch-sink ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-elasticsearch-sink <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-elasticsearch-sink ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-elasticsearch-sink" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-elasticsearch-sink.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Morphline Solr Sink 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-morphline-solr-sink >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-morphline-solr-sink ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-morphline-solr-sink <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-morphline-solr-sink ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Unable to read jar manifest from /root/.m2/repository/org/kitesdk/kite-morphlines-all/0.12.0/kite-morphlines-all-0.12.0.pom
+[INFO] Wrote Eclipse project for "flume-ng-morphline-solr-sink" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sinks/flume-ng-morphline-solr-sink.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Sources 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-sources >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sources ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-sources <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-sources ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Scribe Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-scribe-source >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-scribe-source ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-scribe-source <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-scribe-source ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-scribe-source" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-scribe-source.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume JMS Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-jms-source >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-jms-source ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-jms-source <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-jms-source ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-jms-source" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-jms-source.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume Twitter Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-twitter-source >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-twitter-source ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-twitter-source <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-twitter-source ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-twitter-source" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-sources/flume-twitter-source.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Sources 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-legacy-sources >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-legacy-sources ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-legacy-sources <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-legacy-sources ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Avro source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in http://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of repo1.maven.org has elapsed or updates are forced
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-avro-source >>>
+[INFO] 
+[INFO] --- avro-maven-plugin:1.7.3:idl-protocol (default) @ flume-avro-source ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-avro-source ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-avro-source <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-avro-source ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-avro-source" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-avro-source.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume legacy Thrift Source 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-thrift-source >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-thrift-source ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-thrift-source <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-thrift-source ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-thrift-source" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-legacy-sources/flume-thrift-source.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Clients 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-clients >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-clients ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-clients <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-clients ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Log4j Appender 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-log4jappender >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-log4jappender ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-log4jappender <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-log4jappender ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-log4jappender" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-clients/flume-ng-log4jappender.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Tools 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-tools >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-tools ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-tools <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-tools ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-tools" to /opt/trace/software/apache-flume-1.5.2-src/flume-tools.
+[INFO] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG distribution 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-dist >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-dist ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-dist <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-dist ---
+[INFO] Not running eclipse plugin goal for pom project
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Integration Tests 1.5.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.9:eclipse (default-cli) > generate-resources @ flume-ng-tests >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-tests ---
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.9:eclipse (default-cli) < generate-resources @ flume-ng-tests <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.9:eclipse (default-cli) @ flume-ng-tests ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Wrote Eclipse project for "flume-ng-tests" to /opt/trace/software/apache-flume-1.5.2-src/flume-ng-tests.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  1.856 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  2.942 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  0.957 s]
+[INFO] Flume NG Core ...................................... SUCCESS [  2.957 s]
+[INFO] Flume NG Sinks ..................................... SUCCESS [  0.042 s]
+[INFO] Flume NG HDFS Sink ................................. SUCCESS [  1.603 s]
+[INFO] Flume NG IRC Sink .................................. SUCCESS [  0.521 s]
+[INFO] Flume NG Channels .................................. SUCCESS [  0.038 s]
+[INFO] Flume NG JDBC channel .............................. SUCCESS [  0.605 s]
+[INFO] Flume NG file-based channel ........................ SUCCESS [  0.484 s]
+[INFO] Flume NG Spillable Memory channel .................. SUCCESS [  0.601 s]
+[INFO] Flume NG Node ...................................... SUCCESS [  0.926 s]
+[INFO] Flume NG Embedded Agent ............................ SUCCESS [  0.940 s]
+[INFO] Flume NG HBase Sink ................................ SUCCESS [  1.800 s]
+[INFO] Flume NG ElasticSearch Sink ........................ SUCCESS [  1.315 s]
+[INFO] Flume NG Morphline Solr Sink ....................... SUCCESS [  5.099 s]
+[INFO] Flume Sources ...................................... SUCCESS [  0.036 s]
+[INFO] Flume Scribe Source ................................ SUCCESS [  0.338 s]
+[INFO] Flume JMS Source ................................... SUCCESS [  0.699 s]
+[INFO] Flume Twitter Source ............................... SUCCESS [  0.487 s]
+[INFO] Flume legacy Sources ............................... SUCCESS [  0.029 s]
+[INFO] Flume legacy Avro source ........................... SUCCESS [  0.480 s]
+[INFO] Flume legacy Thrift Source ......................... SUCCESS [  0.295 s]
+[INFO] Flume NG Clients ................................... SUCCESS [  0.028 s]
+[INFO] Flume NG Log4j Appender ............................ SUCCESS [  0.486 s]
+[INFO] Flume NG Tools ..................................... SUCCESS [  0.707 s]
+[INFO] Flume NG distribution .............................. SUCCESS [  0.896 s]
+[INFO] Flume NG Integration Tests ......................... SUCCESS [  0.441 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 30.737 s
+[INFO] Finished at: 2015-05-16T19:45:55+08:00
+[INFO] Final Memory: 57M/908M
+[INFO] ------------------------------------------------------------------------
